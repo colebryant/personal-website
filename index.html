@@ -78,6 +78,9 @@
             <div class="carousel-item">
               <div class="intro-subheading">Experienced Analyst</div>
             </div>
+            <div class="carousel-item">
+              <div class="intro-subheading">Data Enthusiast</div>
+            </div>
           </div>
         </div>
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="ColeBryantCV.pdf" target="_blank">View Resume</a>
@@ -132,6 +135,20 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>LeagueDash</h4>
+            <p class="text-muted">Back-End Capstone</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -157,20 +174,6 @@
           <div class="portfolio-caption">
             <h4>Bangazon-Workforce</h4>
             <p class="text-muted">Group Project</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Back-End Capstone</h4>
-            <p class="text-muted">Coming Soon</p>
           </div>
         </div>
       </div>
@@ -233,7 +236,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h6 class="subheading">May 2019 - Present</h6>
-                  <h4>Technical Consultant</h4>
+                  <h4>Software Developer</h4>
                   <h6 class="subheading">InfoWorks, Inc.</h6>
                 </div>
                 <div class="timeline-body">
@@ -451,6 +454,45 @@
         </div>
       </div>
     </div>
+
+      <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">LeagueDash</h2>
+                <p class="item-intro text-muted">Nashville Software School Back-End Capstone</p>
+                <img class="img-fluid d-block mx-auto" src="" alt="">
+                <p class="text-left">LeagueDash is an app built to assist the organizition of a recreational soccer league including team formation,
+                game scheduling, and calculating the league standings in real time.
+                There are three types of users in LeagueDash:</p>
+                <ol class="text-left">
+                    <li>Players</li>
+                    <li>Captains, and</li>
+                    <li>The Commissioner (only one)</li>
+                </ol>
+                <p class="text-left">Players have the fewest affordances and can create a profile and view league details. Captains can create, edit and delete a team
+                    and add or remove players. In addition, Captains can update the final score to games their team played in. Finally,
+                    the Commissioner has the highest authorization level and can schedule games in addition to removing teams or players from a team's roster.</p>
+                <p class="text-left">LeagueDash is built using C# entity framework and razor template UI in addition to SQL Server for the database. The Google Maps API is also implemented to display the location of the games.</p>
+                <a class="btn btn-primary" type="button" href="https://github.com/colebryant/leaguedash" target="_blank">
+                  View Github Repository</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
